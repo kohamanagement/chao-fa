@@ -186,17 +186,29 @@ body.readable{--serif:var(--body);--display:var(--body);letter-spacing:.03em;lin
 .term{text-decoration:underline dotted var(--brass);text-underline-offset:2px;cursor:help;color:inherit}
 .tip{position:fixed;z-index:30;max-width:300px;background:var(--paper);color:var(--pink);border-radius:8px;padding:10px 12px;font-size:13px;line-height:1.4;box-shadow:inset 0 0 0 1.5px var(--brass),0 8px 24px rgba(0,0,0,.5)}
 .tip b{display:block;color:#2f4b8f;font:800 14px var(--display);margin-bottom:3px}
-/* change 17: phone tabs */
-.ptabs{display:none}
+/* change 17: phone tabs. 2026-10-26 (Mike: "mobile version is very hard"): four tabs (Turn, Map, Party, Log), a one-line
+   status strip instead of the four rail panels, a Menu button instead of eight header buttons, full-screen sheets for every modal,
+   and 44 px touch targets. The desktop table is unchanged above 960 px. */
+.ptabs{display:none}#railsum{display:none}#btnMenu{display:none}
 @media (max-width:960px){
   .ptabs{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--cloth);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom));gap:6px;box-shadow:0 -6px 20px rgba(0,0,0,.4)}
-  .ptabs button{flex:1;background:var(--cloth2);border:1px solid var(--line);border-radius:8px;padding:9px 4px;font:700 12px var(--body);color:var(--ink2)}
+  .ptabs button{flex:1;min-height:44px;background:var(--cloth2);border:1px solid var(--line);border-radius:8px;padding:8px 2px;font:700 12px var(--body);color:var(--ink2)}
   .ptabs button[aria-selected=true]{background:var(--brass);color:#1a1408;border-color:var(--brass)}
-  .app{padding-bottom:70px}
+  .app{padding-bottom:76px}
   body[data-tab=map] .party,body[data-tab=map] #logPanel,body[data-tab=map] #foundPanel,body[data-tab=map] #encPanel{display:none!important}
-  body[data-tab=party] .board,body[data-tab=party] #turnbox,body[data-tab=party] #logPanel,body[data-tab=party] #encPanel,body[data-tab=party] #phasebar{display:none!important}
-  body[data-tab=log] .board,body[data-tab=log] #turnbox,body[data-tab=log] .party,body[data-tab=log] #foundPanel,body[data-tab=log] #phasebar{display:none!important}
-  body[data-tab=log] #encPanel[hidden]{display:none!important}
+  body[data-tab=turn] .board,body[data-tab=turn] .party,body[data-tab=turn] #logPanel{display:none!important}
+  body[data-tab=party] .board,body[data-tab=party] #turnbox,body[data-tab=party] #logPanel,body[data-tab=party] #encPanel,body[data-tab=party] #foundPanel,body[data-tab=party] #phasebar{display:none!important}
+  body[data-tab=log] .board,body[data-tab=log] #turnbox,body[data-tab=log] .party,body[data-tab=log] #foundPanel,body[data-tab=log] #encPanel,body[data-tab=log] #phasebar{display:none!important}
+  .log{max-height:none}
+  body[data-tab=turn] #encPanel,body[data-tab=turn] #foundPanel{order:1}   /* the news of the turn above the actions */
+  #found .cards{display:flex;overflow-x:auto;gap:8px;padding-bottom:6px;-webkit-overflow-scrolling:touch}#found .card{flex:0 0 230px}
+  /* the rail folds into one tappable line: season, Food, Hope, laws */
+  #railsum{display:flex;width:100%;align-items:center;gap:6px 12px;flex-wrap:wrap;background:var(--cloth);border:1px solid var(--line);border-radius:10px;padding:9px 12px;min-height:44px;text-align:left;font:600 13px/1.3 var(--body);color:var(--ink);box-shadow:inset 0 0 0 1px rgba(201,161,74,.18)}
+  #railsum span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}#railsum b{font:800 16px/1 var(--display);color:var(--brass2);font-variant-numeric:tabular-nums}#railsum img{width:20px;height:20px;border-radius:5px}
+  #railsum .more{margin-left:auto;color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}#railsum .warn b{color:var(--danger)}
+  .rail{display:none}body[data-rail=open] .rail{display:grid}
+  .track{grid-template-columns:repeat(3,1fr)}.year small{white-space:normal}
+  .patrol{font-size:11px}.rwrap{-webkit-overflow-scrolling:touch;margin:8px 0}.rwrap .patrol{margin:0}
 }
 /* cards: the second-edition frame. Deck colour is a strip at the top and the back, the body is always paper. */
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
@@ -252,7 +264,7 @@ body.readable{--serif:var(--body);--display:var(--body);letter-spacing:.03em;lin
 .fb textarea,.fb input{background:var(--night);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px;font:14px/1.4 var(--body);width:100%;box-sizing:border-box}
 .fb textarea{min-height:80px;resize:vertical}.fbnote{font-size:12px;color:var(--muted)}.fbok{color:var(--green);font-weight:600}
 .rtab{width:100%;border-collapse:collapse;font-size:13px}.rtab th,.rtab td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:left}.rtab th{font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.rtab .n{text-align:right;font-variant-numeric:tabular-nums}
-.rwrap{overflow-x:auto}
+.rwrap{overflow-x:auto;flex:none;width:100%;min-height:0}
 .facts{display:flex;flex-wrap:wrap;gap:6px}
 .facts span{background:var(--cloth2);border-radius:6px;padding:3px 8px;font-size:12px;color:var(--ink2)}
 .seg .like{display:block;margin-top:3px;opacity:.75;font-style:italic}
@@ -289,6 +301,30 @@ body.readable{--serif:var(--body);--display:var(--body);letter-spacing:.03em;lin
 :root[data-theme=light] .fb textarea,:root[data-theme=light] .fb input{background:#fff;color:#2a2119}
 :root[data-theme=light] .log div.hot{color:#2a2119}:root[data-theme=light] .fort{color:#7a5c1e}
 :root[data-theme=light] .panel{box-shadow:inset 0 0 0 1px rgba(154,119,48,.25)}
+/* 2026-10-26: the phone rules come last so they win over the desktop rules of the same weight */
+@media (max-width:960px){.coach{bottom:calc(78px + env(safe-area-inset-bottom));left:8px;width:min(calc(100vw - 16px),380px)}}
+@media (max-width:640px){
+  body{padding-left:max(10px,env(safe-area-inset-left,0px));padding-right:max(10px,env(safe-area-inset-right,0px))}
+  .app{gap:10px}.top{padding-top:8px;gap:8px;flex-wrap:nowrap}.brand img{height:40px}
+  .topbtns{flex-wrap:nowrap}.topbtns .btn{display:none}.topbtns #btnUndo,.topbtns #btnMenu{display:inline-block}
+  .menu{display:flex;flex-direction:column;gap:8px}.menu .btn{width:100%;text-align:left;padding:12px 14px;font-size:15px}.menu .btn small{display:block;font-weight:400;color:var(--muted);font-size:12.5px}
+  .overlay{padding:0;place-items:stretch}
+  .modal{max-width:none;width:100%;height:100%;max-height:none;border-radius:0;border:0;padding:14px 12px calc(16px + env(safe-area-inset-bottom));gap:12px}
+  .modal h2{font-size:22px}.modal .hero{aspect-ratio:16/6}.tabs{top:-14px}
+  .sideRow .seg button{flex:1 1 100%}.panel{padding:10px 12px}
+  .mrow{padding:22px 4px 5px;gap:4px}.tile{min-height:96px}.tile.hidden{min-height:60px}
+  .cards{grid-template-columns:1fr}.pick{grid-template-columns:1fr 1fr}
+  .title{padding:12px}.title .box{gap:12px}.title p{font-size:14.5px}.title .seg{gap:8px}.title .btn{flex:1 1 40%}
+  .vs{gap:4px 6px;font-size:12.5px}.clash{grid-template-columns:46px 1fr;gap:8px}.fcard{width:46px;height:64px;font-size:19px}
+  .tip{max-width:calc(100vw - 24px)}
+}
+body.noscroll{overflow:hidden}
+@media (pointer:coarse){
+  .btn{min-height:44px}.seg button{min-height:40px;padding:8px 12px}.chip{min-height:34px}.pick button{min-height:56px}
+  .hope span,.cell{height:28px}.phasebar span{padding:6px 4px}
+  .avoid select{min-height:40px}.fb textarea,.fb input{font-size:16px}#faqq{font-size:16px;min-height:44px}
+  .term{text-underline-offset:3px}
+}
 </style>
 
 <div class="title" id="titleScreen">
@@ -316,9 +352,11 @@ body.readable{--serif:var(--body);--display:var(--body);letter-spacing:.03em;lin
       <button class="btn" id="btnFb">Feedback</button>
       <button class="btn" id="btnRes" hidden>Playtest results</button>
       <button class="btn" id="btnNew">New game</button>
+      <button class="btn" id="btnMenu" aria-haspopup="dialog">Menu</button>
     </div>
   </div>
   <div class="band"></div>
+  <button id="railsum" aria-expanded="false" title="Show the time track, Food, Hope and the laws"></button>
 
   <div class="rail">
     <div class="panel"><div class="label">Time · one turn is one season · <span id="coldNote"></span></div><div class="track" id="track"></div></div>
@@ -346,7 +384,7 @@ body.readable{--serif:var(--body);--display:var(--body);letter-spacing:.03em;lin
   </div>
 </div>
 
-<div class="ptabs" id="ptabs" role="tablist"><button role="tab" data-tab="map" aria-selected="true">Map</button><button role="tab" data-tab="party">Party</button><button role="tab" data-tab="log">Log</button></div>
+<div class="ptabs" id="ptabs" role="tablist"><button role="tab" data-tab="turn">Turn</button><button role="tab" data-tab="map" aria-selected="true">Map</button><button role="tab" data-tab="party">Party</button><button role="tab" data-tab="log">Log</button></div>
 <div class="coach" id="coachBox" hidden></div>
 <div class="overlay" id="overlay" hidden><div class="modal" id="modal" role="dialog" aria-modal="true"></div></div>
 
@@ -16940,7 +16978,7 @@ function newGame(seed) {
   const orig = g.resolveEvent.bind(g);
   g.resolveEvent = (c, p, free) => { if (c && c.src !== 'season') shown.push({ c, tid: g.pos.terrain }); return orig(c, p, free); };
   selItem = null; seenEnc = 0; seenLog = 0; mode = null; shown = [];
-  $('encPanel').hidden = true; $('foundPanel').hidden = true;
+  $('encPanel').hidden = true; $('foundPanel').hidden = true; if (onPhone()) setTab('turn');
   beginSeason([]);
 }
 function active() { return g.players[cur]; }
@@ -17081,8 +17119,19 @@ function showTurning() {
     <div class="seg"><button class="btn primary" id="tpOk">Go on</button></div>`, m => { m.querySelector('#tpOk').onclick = closeModal; });
 }
 function setTab(t) { document.body.dataset.tab = t; document.querySelectorAll('#ptabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab === t ? 'true' : 'false')); }
-document.querySelectorAll('#ptabs button').forEach(b => b.onclick = () => setTab(b.dataset.tab));
+document.querySelectorAll('#ptabs button').forEach(b => b.onclick = () => { setTab(b.dataset.tab); window.scrollTo({ top: 0 }); });
 setTab('map');
+// 2026-10-26: on a phone the table is one tab at a time, so the game moves the player to the tab that needs them
+const onPhone = () => getComputedStyle($('ptabs')).display !== 'none';
+function showOn(tab, el) { if (!onPhone()) return; if (document.body.dataset.tab !== tab) setTab(tab); const e = el && $(el); if (e) setTimeout(() => e.scrollIntoView({ block: 'start', behavior: 'smooth' }), 50); }
+$('railsum').onclick = () => { const open = document.body.dataset.rail === 'open'; document.body.dataset.rail = open ? '' : 'open'; $('railsum').setAttribute('aria-expanded', open ? 'false' : 'true'); if (g) render(); };
+$('btnMenu').onclick = () => {
+  const items = [['btnGuide', 'Where everything is found, and what every card does'], ['btnRules', 'The rules in a few screens'], ['btnTheme', 'Switch between the dark cloth and a light table'], ['btnText', 'Cycle the text size'], ['btnRead', 'Wider spacing and a plain face'], ['btnFb', 'Tell the designer how it went'], ['btnRes', 'What the playtests show'], ['btnNew', 'Choose a new party and start again']].filter(([id]) => !$(id).hidden);
+  modal(`<h2>Menu</h2><div class="menu">${items.map(([id, note]) => `<button class="btn" data-m="${id}">${esc($(id).textContent)}<small>${note}</small></button>`).join('')}</div><div class="seg"><button class="btn primary" id="x">Back to the game</button></div>`, m => {
+    m.querySelectorAll('[data-m]').forEach(b => b.onclick = () => { closeModal(); $(b.dataset.m).click(); });
+    $('x').onclick = closeModal;
+  });
+};
 // change 19: rules on tap. Every glossary term in a hint or a button note opens its one-line rule.
 const TERM_RE = new RegExp('\\b(' + GLOSSARY.map(([t]) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).sort((a, b) => b.length - a.length).join('|') + ')\\b', 'i');
 function termify(html) { if (!html || /<a class="term"/.test(html)) return html; return html.replace(TERM_RE, m => `<a class="term" href="#" data-term="${esc(m)}">${m}</a>`); }
@@ -17106,7 +17155,8 @@ function render() {
     }
     tr.appendChild(yd);
   }
-  $('coldNote').textContent = g.rules.linear ? 'soldiers ' + g.linearSoldiers('medium') + ' + grade (' + g.alive().length + ' living, ' + (g.turn > 8 ? 'from 1977' : '1975–76') + ' row)' : '';
+  $('coldNote').textContent = g.rules.linear ? 'a Medium patrol is ' + g.linearSoldiers('medium') + ' (' + g.alive().length + ' living, ' + (g.turn > 8 ? 'from 1977' : '1975–76') + ' block)' : '';
+  $('railsum').innerHTML = `<span><b>${SEASONS[(g.turn - 1) % 4]} ${1975 + Math.floor((g.turn - 1) / 4)}</b> ${g.turn}/${g.rules.turns}</span><span class="${g.food < g.alive().length ? 'warn' : ''}"><img src="${icon('event_food')}" alt="">Food <b>${g.food}</b></span><span class="${g.hope <= 2 ? 'warn' : ''}">Hope <b>${g.hope}</b></span><span>Laws <b>${g.laws.length}</b></span><span class="more">${document.body.dataset.rail === 'open' ? 'Hide ▴' : 'More ▾'}</span>`;
   $('foodIcon').src = icon('event_food'); $('food').textContent = g.food; $('foodBar').style.width = (g.food / 20 * 100) + '%';
   const n = g.alive().length;
   $('foodNote').textContent = (g.rules.eatEvery === 'season' ? n + ' eat every season' : n + ' eat in Winter') + (g.rules.workFood ? '; Search, Scout, Build and Travel each eat ' + g.rules.workFood : '') + (g.rules.winterFood > 1 ? ', ' + n * g.rules.winterFood + ' Food in Winter' : '') + (g.laws.includes('rations') ? ' (half in Spring and Summer)' : '') + '. Forage here: +' + g.forageYield() + '.';
@@ -17220,8 +17270,8 @@ function render() {
     if ($('aPower')) $('aPower').onclick = doPower; $('aLay').onclick = doLay; $('aCover').onclick = doCover; $('aShare').onclick = doShare; $('aHelp').onclick = doHelp;
     $('aTrade').onclick = () => chooseTrade(p); $('avoidSel').onchange = e => { g.avoidMode = e.target.value; };
     $('aAuto').onclick = doAuto; $('aEnd').onclick = doEnd;
-    $('aScout').onclick = () => { if (unseen.length === 1) return doScout(unseen[0]); mode = mode === 'scout' ? null : 'scout'; render(); };
-    $('aTravel').onclick = () => { if (canGo.length === 1) return confirmTravel(canGo[0]); mode = mode === 'travel' ? null : 'travel'; render(); };
+    $('aScout').onclick = () => { if (unseen.length === 1) return doScout(unseen[0]); mode = mode === 'scout' ? null : 'scout'; render(); if (mode) showOn('map', 'map'); };
+    $('aTravel').onclick = () => { if (canGo.length === 1) return confirmTravel(canGo[0]); mode = mode === 'travel' ? null : 'travel'; render(); if (mode) showOn('map', 'map'); };
     if ($('aCross')) $('aCross').onclick = doCross;
     tb.querySelectorAll('[data-give]').forEach(b => b.onclick = () => doGive(g.players[+b.dataset.give]));
     if ($('aLeave')) $('aLeave').onclick = () => { g.leaveBehind(active(), selItem); selItem = null; render(); };
@@ -17238,7 +17288,7 @@ function render() {
 }
 function showFound() {
   if (!shown.length) return;
-  $('foundPanel').hidden = false;
+  $('foundPanel').hidden = false; if (onPhone() && document.body.dataset.tab !== 'turn') showOn('turn', 'foundPanel');
   $('found').innerHTML = '<div class="cards">' + shown.map(s => cardHTML(s.c, s.tid, 'small')).join('') + '</div>';
 }
 function showEnc(e) {
@@ -17246,7 +17296,7 @@ function showEnc(e) {
   const row = (k) => `<span class="h">${k.toUpperCase()}</span><div><div class="bar" style="width:${P[k] / max * 100}%;background:var(--indigo)"></div>${P[k]}</div><div><div class="bar" style="width:${E[k] / max * 100}%;background:var(--red)"></div>${E[k]}</div>`;
   const title = e.difficulty === 'final' ? 'The River Patrol' : 'Fight · ' + cap(e.difficulty);
   const res = e.result === 'won' ? 'The party wins' + (e.difficulty !== 'final' ? ' and searches in safety.' : '.') : e.result === 'stalemate' ? (e.lines.some(l => /breaks away/.test(l)) ? 'After three clashes the party breaks away, carrying its wounds.' : 'The patrol still holds the bank. The party breaks for the water, under fire.') : 'The party is overrun.';
-  $('encPanel').hidden = false;
+  $('encPanel').hidden = false; if (onPhone() && $('overlay').hidden && document.body.dataset.tab !== 'turn') showOn('turn', 'encPanel');
   const fort = (e.lines || []).map(strip).filter(l => /^Fortune \d/.test(l)).map(l => `<div>${esc(l)}</div>`).join('');
   // the fight sheet (change 16): each clash with its Fortune card, what each side dealt and who was hit; a quick view keeps the old summary
   const quick = prefQuick();
@@ -17280,8 +17330,9 @@ function showCloth() {
     <div class="clothstory">${PANELS.map(P => { const has = g.panels.includes(P.n), fell = g.dropped.includes(P.n); return `<div class="row ${has ? '' : 'off'}"><img src="${icon('panel_' + P.n)}" alt=""><div><b>${P.n}. ${esc(P.name)}</b> <span class="dedic">${esc(P.era)}</span>${has ? ' · carried by ' + esc(carrierOf(P.n)) + '<br>' + esc(P.story) : fell ? '<br>Lies where its carrier fell.' : '<br>Not found yet.'}</div></div>`; }).join('')}</div>
     <div class="seg"><button class="btn primary" id="cOk">Close</button></div>`, m => { m.querySelector('#cOk').onclick = closeModal; });
 }
-function modal(html, after) { $('modal').innerHTML = html; $('overlay').hidden = false; if (after) after($('modal')); const f = $('modal').querySelector('button'); if (f) f.focus(); }
-function closeModal() { $('overlay').hidden = true; }
+function modal(html, after) { $('modal').innerHTML = html; $('overlay').hidden = false; document.body.classList.add('noscroll'); $('modal').scrollTop = 0;
+  $('modal').querySelectorAll('table.patrol').forEach(tb => { if (!tb.parentElement.classList.contains('rwrap')) { const w = document.createElement('div'); w.className = 'rwrap'; tb.replaceWith(w); w.appendChild(tb); } });   /* 2026-10-26: the Patrol table scrolls sideways on a phone */ if (after) after($('modal')); const f = $('modal').querySelector('button'); if (f) f.focus(); }
+function closeModal() { $('overlay').hidden = true; document.body.classList.remove('noscroll'); }
 let locked = false; // season, dilemma and law modals must be answered
 function showSeason(news, lines) {
   const sc = g.lastSeasonCard, d = g.pendingDilemma;
@@ -17672,7 +17723,8 @@ function endCoach() { coach = null; $('coachBox').hidden = true; document.queryS
 function drawCoach() {
   if (!coach) return; const s = COACH[coach.i]; if (!s) return endCoach();
   document.querySelectorAll('.coach-hi').forEach(e => e.classList.remove('coach-hi'));
-  const el = s.el && document.querySelector(s.el); if (el) { el.classList.add('coach-hi'); if (coach.i > 0) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+  const el = s.el && document.querySelector(s.el); if (el && onPhone()) { const want = el.closest('.party') ? 'party' : (el.closest('.board') || el.closest('.rail')) ? 'map' : el.closest('.side') ? 'turn' : null; if (el.closest('.rail') && document.body.dataset.rail !== 'open') $('railsum').click(); if (want && document.body.dataset.tab !== want) setTab(want); }
+  if (el) { el.classList.add('coach-hi'); if (coach.i > 0) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
   $('coachBox').innerHTML = `<div class="label">Learn to play · ${coach.i + 1} of ${COACH.length}</div><b>${esc(s.h)}</b><p>${esc(s.t)}</p><div class="seg">${s.wait ? '<span class="small">Do it on the table to go on.</span>' : '<button class="btn primary" id="coachNext">' + (coach.i === COACH.length - 1 ? 'Play on' : 'Next') + '</button>'}<button class="btn" id="coachOff">${coach.i === COACH.length - 1 ? 'Close' : 'Stop the lesson'}</button></div>`;
   if ($('coachNext')) $('coachNext').onclick = () => { coach.i++; drawCoach(); };
   $('coachOff').onclick = endCoach;
