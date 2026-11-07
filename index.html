@@ -115,6 +115,7 @@ footer a{color:var(--brass2)}
       <div class="cta">
         <a class="btn" href="play.html">Play in your browser</a>
         <a class="btn alt" href="rulebook.html">Read the rulebook</a>
+        <a class="btn alt" href="#video">Watch how to play</a>
       </div>
     </div>
     <img src="img/cover_1200.jpg" alt="Chao Fa box cover: a Hmong family walks south along a ridge above the jungle, toward the Mekong" width="1200" height="900">
@@ -140,10 +141,43 @@ footer a{color:var(--brass2)}
       </div>
       <div class="way">
         <h3>Learn to play</h3>
-        <p>Read the rulebook online, or print The First Winter, a fixed first game that walks one family through its first year card by card.</p>
-        <a class="go" href="rulebook.html">Read the rulebook</a>
+        <p>Watch the 21-minute how-to-play video, read the rulebook online, or print The First Winter, a fixed first game that walks one family through its first year card by card.</p>
+        <a class="go" href="#video">Watch the video</a>
       </div>
     </div>
+  </section>
+
+  <section id="video">
+    <div class="sect-head">
+      <p class="eyebrow">How to play</p>
+      <h2>Learn the whole game in one sitting</h2>
+      <p>A full teach in the style of a board game tutorial video: the goal, the pieces, setup, a season of play, the actions, fights, the story cloth, Winter, the river and the ending, then a season played through in the app. Captions are burned in; the chapter list jumps to any part.</p>
+    </div>
+    <video id="howto" controls preload="metadata" playsinline poster="video/poster.jpg" style="width:100%;aspect-ratio:16/9;background:#141a2e;border:1px solid var(--brass,#c9a14a);border-radius:10px">
+      <source src="video/Chao_Fa_How_to_Play.mp4" type="video/mp4">
+      <track kind="captions" src="video/captions.vtt" srclang="en" label="English">
+      Your browser cannot play this video. <a href="video/Chao_Fa_How_to_Play.mp4">Download it</a> instead.
+    </video>
+    <ol class="chapters" style="columns:2;column-gap:2rem;margin:1rem 0 0;padding-left:1.4rem;font-size:.95rem">
+      <li><a href="#video" data-t="0">Welcome</a> <small style="opacity:.7">0:00</small></li>
+      <li><a href="#video" data-t="35">The game and its goal</a> <small style="opacity:.7">0:35</small></li>
+      <li><a href="#video" data-t="99">What is in the box</a> <small style="opacity:.7">1:39</small></li>
+      <li><a href="#video" data-t="206">Setting up</a> <small style="opacity:.7">3:26</small></li>
+      <li><a href="#video" data-t="301">Playing a season</a> <small style="opacity:.7">5:01</small></li>
+      <li><a href="#video" data-t="385">The actions</a> <small style="opacity:.7">6:25</small></li>
+      <li><a href="#video" data-t="551">The Fortune deck</a> <small style="opacity:.7">9:11</small></li>
+      <li><a href="#video" data-t="582">Fights</a> <small style="opacity:.7">9:42</small></li>
+      <li><a href="#video" data-t="743">The story cloth and its keys</a> <small style="opacity:.7">12:23</small></li>
+      <li><a href="#video" data-t="850">Winter, Hope and the council</a> <small style="opacity:.7">14:10</small></li>
+      <li><a href="#video" data-t="959">Crossing the Mekong</a> <small style="opacity:.7">15:59</small></li>
+      <li><a href="#video" data-t="1078">The end of the game</a> <small style="opacity:.7">17:58</small></li>
+      <li><a href="#video" data-t="1125">A season of play</a> <small style="opacity:.7">18:45</small></li>
+      <li><a href="#video" data-t="1231">Your first games</a> <small style="opacity:.7">20:31</small></li>
+    </ol>
+    <p class="small" style="opacity:.8"><a href="video/Chao_Fa_How_to_Play.mp4" download>Download the video</a> (720p, MP4) · <a href="video/script.md">Read the script</a> · <a href="video/captions.srt">Captions (SRT)</a></p>
+    <script>
+      document.querySelectorAll('.chapters a[data-t]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); const v = document.getElementById('howto'); v.currentTime = +a.dataset.t; v.play(); v.scrollIntoView({ behavior: 'smooth', block: 'center' }); }));
+    </script>
   </section>
 
   <section>
@@ -241,7 +275,7 @@ footer a{color:var(--brass2)}
 <footer>
   <div class="wrap">
     <span>Chao Fa is based on true stories. All artwork is original to this game.</span>
-    <span>Designed by Mike Hang · <a href="play.html">Play</a> · <a href="rulebook.html">Rulebook</a> · <a href="#kit">Print kit</a></span>
+    <span>Designed by Mike Hang · <a href="play.html">Play</a> · <a href="rulebook.html">Rulebook</a> · <a href="#video">Video</a> · <a href="#kit">Print kit</a></span>
   </div>
 </footer>
 

@@ -1,0 +1,1280 @@
+1
+00:00:00,250 --> 00:00:03,101
+Laos, spring 1975.
+
+2
+00:00:03,171 --> 00:00:08,320
+Saigon has fallen, the Americans are leaving, and the people who
+fought beside them have nowhere to go.
+
+3
+00:00:08,390 --> 00:00:14,143
+This is Chao Fa, a cooperative board game based on real-life stories,
+and this video will teach you how to play it.
+
+4
+00:00:15,063 --> 00:00:26,133
+We will look at the goal of the game, the pieces in the box, how to set it up,
+what a season of play looks like, the actions, fights, the story cloth, Winter,
+the river crossing, and how the game ends.
+
+5
+00:00:26,203 --> 00:00:28,323
+Then we will play through a season together.
+
+6
+00:00:28,393 --> 00:00:31,371
+The chapter markers on screen let you jump to any part.
+
+7
+00:00:35,491 --> 00:00:36,647
+You are Hmong.
+
+8
+00:00:36,717 --> 00:00:43,515
+You are a countryless nation: a people with no country of your own,
+and after this spring, not even the hills you were born in.
+
+9
+00:00:43,585 --> 00:00:47,747
+Your village secretly supported the United States and its CIA-backed
+army.
+
+10
+00:00:47,817 --> 00:00:51,922
+Now the communists hold the capital, and the family must flee into the
+jungle.
+
+11
+00:00:52,842 --> 00:00:55,402
+The goal is simple to say and hard to do.
+
+12
+00:00:55,472 --> 00:00:58,613
+Walk south through the hills, the jungle and the lowlands.
+
+13
+00:00:58,683 --> 00:01:04,576
+Recover the nine squares of a story cloth, each one won with a key: a
+contact, a route, a signal.
+
+14
+00:01:04,646 --> 00:01:06,986
+Then cross the Mekong River into Thailand.
+
+15
+00:01:07,056 --> 00:01:13,528
+You have five years: twenty seasons, from spring 1975 to the winter of
+1979.
+
+16
+00:01:14,448 --> 00:01:20,190
+Chao Fa is fully cooperative, for one to six players, and a game takes
+ninety minutes to three hours.
+
+17
+00:01:20,260 --> 00:01:23,482
+Everyone at the table plays one villager of the same family.
+
+18
+00:01:23,552 --> 00:01:29,154
+You win together when at least one person reaches the Thai bank, and
+you lose together when no one does.
+
+19
+00:01:29,224 --> 00:01:31,041
+It is a hard game by design.
+
+20
+00:01:31,111 --> 00:01:35,332
+Play it like the people it is about: carefully, together, and without
+giving up.
+
+21
+00:01:39,452 --> 00:01:40,898
+Let's look at what you play with.
+
+22
+00:01:40,968 --> 00:01:45,850
+Sixteen villager cards: nine men and boys, seven women and girls.
+
+23
+00:01:45,920 --> 00:01:47,366
+Each has three numbers.
+
+24
+00:01:47,436 --> 00:01:53,642
+HP is how many wounds they can take, ATK is what they add to the
+family's attack, and DEF to its defence.
+
+25
+00:01:53,712 --> 00:01:57,062
+Every villager has six points in all, divided differently.
+
+26
+00:01:57,132 --> 00:01:59,646
+Side A gives a power used once a season.
+
+27
+00:01:59,716 --> 00:02:02,230
+Side B gives a trait that is always on.
+
+28
+00:02:02,300 --> 00:02:05,139
+You pick a side at setup and keep it for the whole game.
+
+29
+00:02:06,059 --> 00:02:13,623
+Sixteen place tiles make the map: the home village, then four rows of
+three places, the hills, the jungle, the lowlands and the river.
+
+30
+00:02:13,693 --> 00:02:19,493
+Each tile shows its danger number, the grade of fight you meet there,
+and what can be foraged in each season.
+
+31
+00:02:19,563 --> 00:02:28,451
+Every place has its own search deck, with that place's picture on the back: the
+items, food, shelter, clues, keys and dangers you would really find there.
+
+32
+00:02:29,371 --> 00:02:30,724
+Then the shared decks.
+
+33
+00:02:30,794 --> 00:02:37,592
+Eighty-five Season cards: patrols, ambushes, fog, food, omens, history
+and moral dilemmas.
+
+34
+00:02:37,662 --> 00:02:40,292
+One is drawn at the start of every season.
+
+35
+00:02:40,362 --> 00:02:44,316
+Stranger cards, people you meet on the trail, each a choice of two.
+
+36
+00:02:44,386 --> 00:02:49,500
+Six Turning Point cards, six Law cards, and twenty-one River cards for
+the crossing.
+
+37
+00:02:50,420 --> 00:02:51,587
+And the Fortune deck.
+
+38
+00:02:51,657 --> 00:02:53,800
+Twenty cards numbered one to twenty.
+
+39
+00:02:53,870 --> 00:02:55,478
+There are no dice in Chao Fa.
+
+40
+00:02:55,548 --> 00:02:59,327
+Whenever the game needs a number, you draw the top card of the Fortune
+deck.
+
+41
+00:02:59,397 --> 00:03:00,774
+We will come back to it.
+
+42
+00:03:01,694 --> 00:03:09,316
+The board holds the map and its search decks on the left, and on the
+right the time track, Food, Hope, the story cloth and the phase track.
+
+43
+00:03:09,386 --> 00:03:11,993
+Along the bottom runs the Mekong crossing lane.
+
+44
+00:03:12,063 --> 00:03:22,669
+There is a standee for every villager, a party pawn, tokens and markers, a fight
+tracker, the two-faced Patrol table card, a family board for every seat, and the
+nine squares of the story cloth.
+
+45
+00:03:26,789 --> 00:03:27,666
+Setting up.
+
+46
+00:03:27,736 --> 00:03:31,910
+Put the Village Ruins at the top of the map, face up, and the party
+pawn on it.
+
+47
+00:03:31,980 --> 00:03:38,801
+For each row below it, shuffle that row's four tiles, lay three of
+them face down, and put the fourth back in the box.
+
+48
+00:03:38,871 --> 00:03:41,188
+The river row has only three tiles.
+
+49
+00:03:41,258 --> 00:03:44,666
+Shuffle each place's search deck and set it beside its tile.
+
+50
+00:03:44,736 --> 00:03:48,631
+Or use a setup card, which lays the tiles in a historical order.
+
+51
+00:03:49,551 --> 00:03:50,753
+Now the family.
+
+52
+00:03:50,823 --> 00:03:53,395
+The party is always three to six villagers.
+
+53
+00:03:53,465 --> 00:03:58,835
+One player runs three, two players run two each, and three to six
+players take one each.
+
+54
+00:03:58,905 --> 00:04:01,024
+Each player chooses side A or B.
+
+55
+00:04:01,094 --> 00:04:06,627
+Every villager starts with one item: the first of their own items, the
+one thing they carried out of the village.
+
+56
+00:04:06,697 --> 00:04:09,896
+Take it out of its search deck and put it on the family board.
+
+57
+00:04:09,966 --> 00:04:12,990
+A good first party is Chai, Mai, Chao and Blong.
+
+58
+00:04:13,910 --> 00:04:18,874
+Set Food to three times the number of villagers: a party of four
+starts with twelve.
+
+59
+00:04:18,944 --> 00:04:24,116
+Set Hope to three, and the time marker on season one, Spring 1975.
+
+60
+00:04:24,186 --> 00:04:35,849
+A small family starts with the first squares of the cloth already sewn: a party
+of six starts with squares one and two, five with one to three, four with one to
+four, and three with one to five.
+
+61
+00:04:35,919 --> 00:04:37,249
+The rest you must win.
+
+62
+00:04:38,169 --> 00:04:39,673
+Shuffle the Fortune deck.
+
+63
+00:04:39,743 --> 00:04:47,551
+Shuffle the Season deck in two stacks: the cards marked From 1977 go
+under the rest, so the war arrives in its own time.
+
+64
+00:04:47,621 --> 00:04:53,641
+Shuffle the Laws, the Strangers, the Turning Points and the River
+deck, and set its three monsoon cards aside.
+
+65
+00:04:53,711 --> 00:04:56,492
+Keep the Ending and Voice cards for the end of the game.
+
+66
+00:04:56,562 --> 00:04:57,729
+You are ready to play.
+
+67
+00:05:01,849 --> 00:05:07,335
+A game is up to twenty seasons, and one season is one round of the
+table, in three steps.
+
+68
+00:05:07,405 --> 00:05:10,116
+First, draw a Season card and resolve it.
+
+69
+00:05:10,186 --> 00:05:12,840
+Second, each villager takes two actions.
+
+70
+00:05:12,910 --> 00:05:20,010
+Third, the end of the season: sick people nobody nursed draw for
+fever, and in Winter everyone eats and faces the Toll.
+
+71
+00:05:20,080 --> 00:05:22,524
+Then the time marker moves forward one season.
+
+72
+00:05:22,594 --> 00:05:24,225
+Time only moves forward.
+
+73
+00:05:25,145 --> 00:05:26,672
+The Season card first.
+
+74
+00:05:26,742 --> 00:05:29,349
+A patrol card is a fight wherever you are.
+
+75
+00:05:29,419 --> 00:05:30,830
+Food goes to the store.
+
+76
+00:05:30,900 --> 00:05:34,470
+A fog or shelter card goes to a player's hand to use later.
+
+77
+00:05:34,540 --> 00:05:36,451
+A Time card costs you time.
+
+78
+00:05:36,521 --> 00:05:43,516
+A dilemma must be answered by the whole party before anyone acts, and
+an omen stays face up, moving you toward the Turning Point.
+
+79
+00:05:44,436 --> 00:05:45,673
+Then the actions.
+
+80
+00:05:45,743 --> 00:05:48,559
+Each villager takes two, or one if they are sick.
+
+81
+00:05:48,629 --> 00:05:51,711
+If Hope is at zero, everyone has one action less.
+
+82
+00:05:51,781 --> 00:05:56,246
+Go around the table; a villager may take both actions at once or split
+them.
+
+83
+00:05:56,316 --> 00:06:02,197
+Travel is the exception: the whole party moves together, and only
+before anyone has acted that season.
+
+84
+00:06:03,117 --> 00:06:06,223
+One rule shapes the whole game: hard work eats.
+
+85
+00:06:06,293 --> 00:06:11,663
+A Search, a Scout, building a camp, and a journey each cost one Food
+from the store.
+
+86
+00:06:11,733 --> 00:06:15,222
+With no Food left, the worker still goes, but takes a wound.
+
+87
+00:06:15,292 --> 00:06:17,992
+Outside Winter, nobody eats at the end of the season.
+
+88
+00:06:18,062 --> 00:06:21,423
+You eat by working, so every action is a choice about food.
+
+89
+00:06:25,543 --> 00:06:26,478
+The actions.
+
+90
+00:06:26,548 --> 00:06:28,319
+Search is the heart of the game.
+
+91
+00:06:28,389 --> 00:06:31,925
+Pay one Food and draw the top card of this place's search deck.
+
+92
+00:06:31,995 --> 00:06:35,936
+An item goes to anyone in the party; a villager's own item goes to
+them.
+
+93
+00:06:36,006 --> 00:06:37,336
+Food goes to the store.
+
+94
+00:06:37,406 --> 00:06:40,025
+Shelter and remedy cards go to your hand.
+
+95
+00:06:40,095 --> 00:06:42,551
+A Danger card is a fight, right now.
+
+96
+00:06:42,621 --> 00:06:44,589
+A key starts a key encounter.
+
+97
+00:06:45,509 --> 00:06:47,860
+Searching the same place again makes noise.
+
+98
+00:06:47,930 --> 00:06:55,657
+Before the second and every later search, draw a Fortune card: on the
+number of earlier searches here or less, soldiers come to look.
+
+99
+00:06:55,727 --> 00:06:59,367
+You fight at the place's level, with no spoils, and then you search.
+
+100
+00:06:59,437 --> 00:07:03,333
+Cover your tracks once a season, and the place counts two fewer
+searches.
+
+101
+00:07:04,253 --> 00:07:05,838
+Scout, one Food.
+
+102
+00:07:05,908 --> 00:07:11,603
+Turn face up one hidden tile next to the party: ahead, diagonally
+ahead, or to the side.
+
+103
+00:07:11,673 --> 00:07:17,484
+Now you know its danger, its grade of fight and what grows there, and
+you may Travel there in a later season.
+
+104
+00:07:18,404 --> 00:07:20,999
+Travel, one Food and the whole season.
+
+105
+00:07:21,069 --> 00:07:23,781
+The whole party moves to a face-up tile next to it.
+
+106
+00:07:23,851 --> 00:07:30,962
+Draw a Fortune card against the tile's danger number: on that number
+or less, a patrol finds you and you fight as an ambush.
+
+107
+00:07:31,032 --> 00:07:35,287
+A Guide makes the draw three better; Lao clothes or a travel pass, two
+better.
+
+108
+00:07:35,357 --> 00:07:39,137
+You gather the tile's forage on the way, and the season ends when you
+arrive.
+
+109
+00:07:40,057 --> 00:07:41,305
+Forage is free.
+
+110
+00:07:41,375 --> 00:07:44,493
+Gain the Food shown on the tile for this season, plus one.
+
+111
+00:07:44,563 --> 00:07:48,981
+Draw a Fortune card: on one to three you are spotted, and you fight as
+an ambush.
+
+112
+00:07:49,901 --> 00:07:52,078
+Rest or nurse, also free.
+
+113
+00:07:52,148 --> 00:07:55,080
+Rest heals one wound, one more at a finished camp.
+
+114
+00:07:55,150 --> 00:08:02,169
+Or nurse a sick villager: with medicine in the party the fever breaks
+on a Fortune card of six or more, otherwise on eleven or more.
+
+115
+00:08:02,239 --> 00:08:06,866
+With Kong on side B in the party, or Lee or Pa nursing, it always
+breaks.
+
+116
+00:08:07,786 --> 00:08:10,277
+Build a camp, one Food per action.
+
+117
+00:08:10,347 --> 00:08:12,896
+Two actions finish a hidden camp on the tile.
+
+118
+00:08:12,966 --> 00:08:17,523
+It makes the Winter Toll one better and resting heal one more, for as
+long as you stay.
+
+119
+00:08:17,593 --> 00:08:24,170
+Powers, playing a card from your hand, and giving an item to someone
+else are actions too, unless the card says they are free.
+
+120
+00:08:25,090 --> 00:08:27,499
+When the party cannot move, there is still work.
+
+121
+00:08:27,569 --> 00:08:31,953
+Lay an ambush, once at each place, and the next fight there the party
+fires first.
+
+122
+00:08:32,023 --> 00:08:34,699
+Trade an item for three Food where people live.
+
+123
+00:08:34,769 --> 00:08:37,120
+Share a meal: two Food for one Hope.
+
+124
+00:08:37,190 --> 00:08:43,721
+Or seek help, once a season, and draw a Stranger card: a trader, a
+deserter, a shaman, lost children.
+
+125
+00:08:43,791 --> 00:08:46,979
+Each is a choice of two, and the party decides together.
+
+126
+00:08:47,899 --> 00:08:49,345
+A word on carrying.
+
+127
+00:08:49,415 --> 00:08:53,995
+Each villager has two hands, one body, one head and three pack slots.
+
+128
+00:08:54,065 --> 00:08:57,485
+A rifle or a bow takes both hands; a knife takes one.
+
+129
+00:08:57,555 --> 00:09:02,089
+Animals, boats and food caches belong to the whole party and take no
+slot.
+
+130
+00:09:02,159 --> 00:09:07,157
+When someone has too much, hand an item to someone with room, or leave
+it in a cache on the tile.
+
+131
+00:09:11,277 --> 00:09:14,522
+Back to the Fortune deck, because everything else runs on it.
+
+132
+00:09:14,592 --> 00:09:17,873
+Twenty cards, one to twenty, shuffled face down.
+
+133
+00:09:17,943 --> 00:09:24,427
+Whenever a rule asks for a draw, turn the top card, read the number
+against the rule, and put the card on the discard.
+
+134
+00:09:24,497 --> 00:09:27,487
+When the deck runs out, shuffle the discard and go on.
+
+135
+00:09:27,557 --> 00:09:35,563
+Because every number comes out once before any comes again, a run of bad cards
+means better ones are coming, and a table that counts can feel the deck turning.
+
+136
+00:09:35,633 --> 00:09:38,878
+Each card also carries a Hmong saying for the moment.
+
+137
+00:09:42,998 --> 00:09:43,747
+Fights.
+
+138
+00:09:43,817 --> 00:09:51,590
+A fight happens when you draw a Danger or patrol card, when a forager
+is spotted, when you are found travelling, at a key, and at the river.
+
+139
+00:09:51,660 --> 00:09:57,193
+A fight has three steps: read the soldiers' number, clash up to three
+times, and count the cost.
+
+140
+00:09:57,263 --> 00:09:59,429
+There is nothing to add or multiply.
+
+141
+00:10:00,349 --> 00:10:02,596
+Step one: read the soldiers' number.
+
+142
+00:10:02,666 --> 00:10:07,804
+The soldiers have a single number, and it is their attack, their
+defence and their hit points all at once.
+
+143
+00:10:07,874 --> 00:10:09,343
+Find it on the Patrol table.
+
+144
+00:10:09,413 --> 00:10:15,003
+The row is the grade of the fight: Easy, Medium, Hard, Deadly, or the
+River Patrol.
+
+145
+00:10:15,073 --> 00:10:17,251
+The column is how many of you are living.
+
+146
+00:10:17,321 --> 00:10:24,920
+The block is the year: 1975 and 76, or 1977 onward, when the hunt
+doubles.
+
+147
+00:10:24,990 --> 00:10:30,151
+A party of four meeting a Hard patrol in 1977 faces fourteen.
+
+148
+00:10:31,071 --> 00:10:37,985
+Your side adds together the HP, ATK and DEF of every living villager,
+their items, and any cards played for this fight.
+
+149
+00:10:38,055 --> 00:10:41,150
+Lay the fight tracker between you and write the numbers in.
+
+150
+00:10:42,070 --> 00:10:44,932
+Step two: clash, up to three times.
+
+151
+00:10:45,002 --> 00:10:47,772
+Each clash, first draw a Fortune card.
+
+152
+00:10:47,842 --> 00:10:52,190
+On one to four the soldiers' aim is true: plus two attack for them
+this clash.
+
+153
+00:10:52,260 --> 00:10:56,039
+On seventeen to twenty the villagers find their mark: plus two for
+you.
+
+154
+00:10:56,109 --> 00:10:58,043
+Then both sides strike at once.
+
+155
+00:10:58,113 --> 00:11:00,487
+You deal your ATK minus the soldiers' number.
+
+156
+00:11:00,557 --> 00:11:05,405
+They deal their number minus your DEF, and always at least one,
+because gunfire gets through.
+
+157
+00:11:05,475 --> 00:11:09,115
+The party chooses who takes the wounds, and Armor stops them first.
+
+158
+00:11:10,035 --> 00:11:11,597
+Here is a fight in the app.
+
+159
+00:11:11,667 --> 00:11:14,924
+The soldiers fall when the damage you have dealt reaches their number.
+
+160
+00:11:14,994 --> 00:11:20,259
+After three clashes, if they still stand, the party breaks away with
+its wounds and nothing gained.
+
+161
+00:11:20,329 --> 00:11:23,911
+A fallen villager's ATK and DEF leave the party at once.
+
+162
+00:11:23,981 --> 00:11:29,444
+Draw a Fortune card for them: on one to ten they were killed, on
+eleven to twenty they were taken prisoner.
+
+163
+00:11:29,514 --> 00:11:31,041
+Either way they leave the game.
+
+164
+00:11:31,961 --> 00:11:33,709
+A few things change a fight.
+
+165
+00:11:33,779 --> 00:11:37,837
+In an ambush the soldiers fire first: you deal nothing in the first
+clash.
+
+166
+00:11:37,907 --> 00:11:40,873
+If you laid an ambush yourself, it is the other way round.
+
+167
+00:11:40,943 --> 00:11:46,836
+An escape card, like a Hidden Path or Fog in the Valley, lets you slip
+away with no fight at all.
+
+168
+00:11:46,906 --> 00:11:51,928
+After the first or second clash you may break away: drop one item per
+villager and take no hit.
+
+169
+00:11:51,998 --> 00:11:57,437
+An Easy fight is village militia, and you may hand over two Food or a
+money item instead of fighting.
+
+170
+00:11:57,507 --> 00:12:02,355
+And a loud weapon leaves an Alarm token: the next fight there this
+season is one row harder.
+
+171
+00:12:03,275 --> 00:12:05,174
+Step three: count the cost.
+
+172
+00:12:05,244 --> 00:12:14,422
+Win, and the party searches this place in safety: one card for an Easy fight,
+two for Medium, three for Hard, skipping Danger, Nothing and key cards.
+
+173
+00:12:14,492 --> 00:12:17,238
+The damage a survivor took becomes wounds.
+
+174
+00:12:17,308 --> 00:12:19,578
+A fight you only survived gives nothing.
+
+175
+00:12:23,698 --> 00:12:27,733
+The way out is a story cloth of nine squares, laid out three by three.
+
+176
+00:12:27,803 --> 00:12:34,554
+Story cloths were first stitched in the Thai refugee camps by families
+who had made this crossing, to record the war and the flight.
+
+177
+00:12:34,624 --> 00:12:37,336
+Each square shows one stage of the escape.
+
+178
+00:12:37,406 --> 00:12:41,464
+When a square is recovered, read its story aloud from the Companion.
+
+179
+00:12:41,534 --> 00:12:44,013
+You need all nine, whatever the size of your party.
+
+180
+00:12:44,933 --> 00:12:54,134
+The squares you did not start with are won with keys hidden in the search decks:
+a letter from Nong Khai, signal fires on the ridge, a patrol timetable, a
+fisherman's signal.
+
+181
+00:12:54,204 --> 00:12:57,020
+Keys are scarce near home and plentiful near the river.
+
+182
+00:12:57,090 --> 00:13:02,565
+Each key you win recovers the next missing square, and the living
+villager carrying the fewest squares takes it.
+
+183
+00:13:03,485 --> 00:13:05,024
+No square comes free.
+
+184
+00:13:05,094 --> 00:13:14,492
+Each key names what stands between you and it, and the fight is always one step
+harder than the place: Easy becomes Medium, Medium becomes Hard, Hard becomes
+Deadly.
+
+185
+00:13:14,562 --> 00:13:16,194
+A Guarded key is a fight.
+
+186
+00:13:16,264 --> 00:13:21,785
+A Price key is paid with silver, baht, coins or two Food, or taken by
+force.
+
+187
+00:13:21,855 --> 00:13:25,785
+A key On the Fallen is taken now, and then his comrades ambush you.
+
+188
+00:13:25,855 --> 00:13:30,006
+A Mined key costs everyone a Fortune draw, with wounds on one to four.
+
+189
+00:13:30,076 --> 00:13:34,181
+Wait for Dark costs a Food each, and a patrol finds you on one to
+eight.
+
+190
+00:13:34,251 --> 00:13:39,760
+Or leave the key for now: put it at the bottom of the deck with a
+Guard token on the tile, and come back for it.
+
+191
+00:13:40,680 --> 00:13:50,613
+If a villager carrying squares is killed by soldiers or taken prisoner, their
+squares lie where they fell: shuffle each into the top three cards of that
+place's deck, to be won again.
+
+192
+00:13:50,683 --> 00:13:55,832
+A villager who dies among the family, of hunger, sickness or the cold,
+hands their squares on.
+
+193
+00:13:55,902 --> 00:14:06,137
+And clues help you along the way: a Guide makes every travel draw three better,
+a Trail Map reveals the next row, and a Safe Crossing Place or a Boatman stays
+with its tile for the crossing.
+
+194
+00:14:10,257 --> 00:14:10,971
+Winter.
+
+195
+00:14:11,041 --> 00:14:15,076
+Every fourth season, at the end of the season, everyone eats one Food.
+
+196
+00:14:15,146 --> 00:14:21,654
+Each Food you are short is a wound to someone who has not gone hungry
+yet, and that person stays hungry until the next meal.
+
+197
+00:14:21,724 --> 00:14:24,749
+Each Spring, everyone who ate heals one wound.
+
+198
+00:14:25,669 --> 00:14:26,755
+Then the Toll.
+
+199
+00:14:26,825 --> 00:14:28,607
+The cold gets worse every year.
+
+200
+00:14:28,677 --> 00:14:56,466
+Every villager draws a Fortune card and falls sick on five or less, adjusted:
+plus one for a child, an elder, the wounded or the already sick; plus one for
+each Food short this year; plus the cold of the year, from zero in 1975 to two
+in 1978 and 79; worse at low Hope and better at high Hope; one better with a
+healer or a finished camp; and better for anyone holding a blanket, a poncho, a
+mosquito net or quinine.
+
+201
+00:14:56,536 --> 00:14:59,747
+A villager who is already sick and fails the Toll dies.
+
+202
+00:15:00,667 --> 00:15:03,924
+Sick villagers act once a season instead of twice.
+
+203
+00:15:03,994 --> 00:15:10,444
+They must be nursed each season, or at the end of it they draw for
+fever, and die on a Fortune card of one to five.
+
+204
+00:15:10,514 --> 00:15:11,530
+Nurse them early.
+
+205
+00:15:12,450 --> 00:15:15,231
+Hope runs from zero to six and starts at three.
+
+206
+00:15:15,301 --> 00:15:19,127
+Each death costs one Hope, unless a funeral is held.
+
+207
+00:15:19,197 --> 00:15:20,898
+A hungry Winter costs one.
+
+208
+00:15:20,968 --> 00:15:25,131
+Dilemmas and strangers raise or lower it, and sharing a meal raises
+it.
+
+209
+00:15:25,201 --> 00:15:29,096
+At Hope zero everyone has one action less and the Toll is two worse.
+
+210
+00:15:29,166 --> 00:15:31,889
+At Hope five or six the Toll is one better.
+
+211
+00:15:31,959 --> 00:15:34,531
+And at the river, Hope buys a second chance.
+
+212
+00:15:35,451 --> 00:15:37,942
+After the Toll, the families hold a council.
+
+213
+00:15:38,012 --> 00:15:40,584
+Draw two Law cards the party has not adopted.
+
+214
+00:15:40,654 --> 00:15:43,435
+The party may adopt one and shuffles the other back.
+
+215
+00:15:43,505 --> 00:15:49,954
+Council of Elders, Travel by Night, Proper Funerals, Everyone Nurses
+the Sick, Strict Rations, Travel Light.
+
+216
+00:15:50,024 --> 00:15:53,281
+Laws cannot be undone, and every one has a cost.
+
+217
+00:15:53,351 --> 00:15:55,691
+Then the time marker moves to the next Spring.
+
+218
+00:15:59,811 --> 00:16:00,607
+The river.
+
+219
+00:16:00,677 --> 00:16:06,023
+With all nine squares on the cloth, the party may Cross as an action
+from any river place.
+
+220
+00:16:06,093 --> 00:16:11,556
+A Safe Crossing Place on that tile helps every check, and a Boatman
+there sells seats for silver.
+
+221
+00:16:11,626 --> 00:16:16,369
+The crossing has three parts: the River Patrol on the bank, the boats
+and rafts, and the water.
+
+222
+00:16:17,289 --> 00:16:22,589
+First, the River Patrol: Lao and Vietnamese soldiers with a machine
+gun and a boat.
+
+223
+00:16:22,659 --> 00:16:27,135
+Read the River Patrol row of the Patrol table; it counts at most five
+people.
+
+224
+00:16:27,205 --> 00:16:29,986
+Escape cards and ambushes do not apply here.
+
+225
+00:16:30,056 --> 00:16:31,665
+Fight up to three clashes.
+
+226
+00:16:31,735 --> 00:16:33,889
+Beat them and you reach the water unseen.
+
+227
+00:16:33,959 --> 00:16:41,070
+If they still stand, the party breaks for the water under fire: the
+Boatman will not come, but a canoe you found can still be launched.
+
+228
+00:16:41,990 --> 00:16:44,074
+Second, boats and rafts.
+
+229
+00:16:44,144 --> 00:16:45,904
+A dugout canoe carries two.
+
+230
+00:16:45,974 --> 00:16:50,426
+With a Boatman, each money item buys one seat, and the boat takes four
+a trip.
+
+231
+00:16:50,496 --> 00:16:56,145
+Everyone else goes on a raft: free with raft poles or driftwood,
+otherwise give up any two items.
+
+232
+00:16:56,215 --> 00:17:00,320
+With no raft, they swim, and most highland villagers could not swim.
+
+233
+00:17:00,390 --> 00:17:02,335
+Only Pao and Sheng can.
+
+234
+00:17:03,255 --> 00:17:04,585
+Third, the water.
+
+235
+00:17:04,655 --> 00:17:09,444
+Each person, children and the sick first, walks the Mekong lane with
+up to three draws.
+
+236
+00:17:09,514 --> 00:17:14,977
+Down to the water: on three or less they are hit, and on a one they
+are killed at the water's edge.
+
+237
+00:17:15,047 --> 00:17:19,755
+The current: draw a River card, read it aloud, then draw a Fortune
+card.
+
+238
+00:17:19,825 --> 00:17:33,125
+Swept away on thirteen or less, plus four in the monsoon, plus two for a child,
+elder, sick or wounded person; six better in a boat, three better on a raft or
+at a safe crossing place, and better with floats.
+
+239
+00:17:34,045 --> 00:17:43,177
+Anyone the current takes draws again: drowned on twelve or less, worse for a
+non-swimmer without a float, better if someone is already on the Thai bank to
+throw a line.
+
+240
+00:17:43,247 --> 00:17:45,633
+Above it, they crawl out on the Thai bank.
+
+241
+00:17:45,703 --> 00:17:51,038
+If the river takes someone, you may spend one Hope to draw that check
+again, once per person.
+
+242
+00:17:51,108 --> 00:17:54,771
+A family that has held on to its spirit has a better chance at the
+end.
+
+243
+00:17:58,891 --> 00:18:08,638
+The game ends the moment someone reaches the Thai bank and no one is left in the
+water, when the last villager dies or is taken, or at the end of Winter 1979.
+
+244
+00:18:08,708 --> 00:18:10,421
+The ending is part of the game.
+
+245
+00:18:10,491 --> 00:18:11,565
+Do not skip it.
+
+246
+00:18:12,485 --> 00:18:19,956
+Read Ending A, Across the Mekong, if anyone crossed, or Ending B, The
+ones who stayed, if no one did.
+
+247
+00:18:20,026 --> 00:18:22,842
+Say aloud the names of those who did not reach the river.
+
+248
+00:18:22,912 --> 00:18:29,037
+Shuffle the Voice cards of that ending, draw one and read it: each is
+built from the recollection of a real person.
+
+249
+00:18:29,107 --> 00:18:36,578
+Then, for every villager, find what became of them in the Endings booklet: their
+name and a number, from one, crossed the Mekong, to ten.
+
+250
+00:18:36,648 --> 00:18:39,719
+Each player names one thing their villager carried the whole way.
+
+251
+00:18:39,789 --> 00:18:41,351
+And read the dedication.
+
+252
+00:18:45,471 --> 00:18:50,156
+Let's play a season together, in the app, with Chai, Mai, Chao and
+Blong.
+
+253
+00:18:50,226 --> 00:18:53,622
+It is Spring 1975 in the Village Ruins.
+
+254
+00:18:53,692 --> 00:18:57,820
+Food is twelve, Hope is three, and four squares of the cloth are sewn.
+
+255
+00:18:58,740 --> 00:19:00,499
+The Season card comes first.
+
+256
+00:19:00,569 --> 00:19:04,233
+We draw it and resolve it, and then the villagers act, Chai first.
+
+257
+00:19:05,153 --> 00:19:09,130
+Chai searches the village: one Food, and the top card of the village
+deck.
+
+258
+00:19:09,200 --> 00:19:10,855
+The item goes to the family.
+
+259
+00:19:11,775 --> 00:19:13,070
+Chai searches again.
+
+260
+00:19:13,140 --> 00:19:18,127
+This is the second search here, so first a Fortune card: on a one,
+soldiers would come.
+
+261
+00:19:18,197 --> 00:19:21,036
+We are lucky, and Chai draws another card from the deck.
+
+262
+00:19:21,106 --> 00:19:24,107
+His two actions are spent, so play passes to Mai.
+
+263
+00:19:25,027 --> 00:19:26,299
+Mai is a farmer.
+
+264
+00:19:26,369 --> 00:19:33,329
+She forages: the village gives its spring Food plus one, for free, and
+her Fortune card is above three, so no one spots her.
+
+265
+00:19:34,249 --> 00:19:39,619
+With her second action Mai scouts: one Food, and one of the hidden
+places in the hills turns face up.
+
+266
+00:19:39,689 --> 00:19:42,110
+Now the party knows where it can go next season.
+
+267
+00:19:43,030 --> 00:19:45,021
+Chao and Blong finish the season.
+
+268
+00:19:45,091 --> 00:19:48,581
+Chao searches once more, and Blong, the elder, rests.
+
+269
+00:19:48,651 --> 00:19:56,145
+When the last villager is done, the season ends: no one is sick, it is
+not Winter, so the time marker simply moves to Summer.
+
+270
+00:19:57,065 --> 00:19:59,173
+Summer 1975.
+
+271
+00:19:59,243 --> 00:20:04,926
+A new Season card, and then, before anyone acts, the family travels to
+the airstrip Mai scouted.
+
+272
+00:20:04,996 --> 00:20:17,135
+Travel normally costs one Food and a Fortune card against the place's danger
+number, but Blong, the elder, uses his power, The Old Road: no danger draw this
+time, and one more Food gathered on the way.
+
+273
+00:20:17,205 --> 00:20:19,196
+The season ends when they arrive.
+
+274
+00:20:19,266 --> 00:20:23,185
+Next season the search begins again, in a new place, with new cards.
+
+275
+00:20:23,255 --> 00:20:28,010
+That is the rhythm of Chao Fa: look, decide, move, and keep the family
+fed.
+
+276
+00:20:32,130 --> 00:20:33,889
+A ladder of first games.
+
+277
+00:20:33,959 --> 00:20:41,059
+Start with The First Winter, the printed first game, or the app's
+Learn to play, with Chai, Mai, Chao and Blong.
+
+278
+00:20:41,129 --> 00:20:44,653
+Then the same four on the Short Trail, making your own decisions.
+
+279
+00:20:44,723 --> 00:20:47,620
+Then the full Trail with a party of four or five.
+
+280
+00:20:47,690 --> 00:20:53,873
+After that, the villagers with the hardest powers, a setup card, side
+B, and the Late Crossing scenario.
+
+281
+00:20:54,793 --> 00:20:57,435
+Three golden rules when the table is unsure.
+
+282
+00:20:57,505 --> 00:20:59,252
+A card beats the rulebook.
+
+283
+00:20:59,322 --> 00:21:01,813
+A specific rule beats a general one.
+
+284
+00:21:01,883 --> 00:21:06,591
+And when the table cannot agree, the elders decide: the player of the
+oldest villager.
+
+285
+00:21:07,511 --> 00:21:12,277
+The rulebook, the print-and-play kit and the free app are at the
+address on screen.
+
+286
+00:21:12,347 --> 00:21:22,965
+Chao Fa is dedicated to all the men and women who served in the Vietnam War, to
+the Hmong who served and were killed, to those who died in the jungles of Laos
+and those who are still there.
+
+287
+00:21:23,035 --> 00:21:25,398
+Thank you for watching, and good luck on the trail.
