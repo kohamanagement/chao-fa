@@ -5,121 +5,118 @@
 <title>Chao Fa</title>
 <meta name="description" content="Chao Fa: a cooperative survival game about the Hmong flight from Laos, 1975 to 1979. Play online or print and play.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;0,700;0,800;1,500&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500..900;1,9..144,500..700&display=swap">
 <style>
-/* Layout: a stitched cloth band at the top, then hemp-paper pages; indigo night in dark mode. One column, 1040px wide, sections separated by brass rules. */
+/* The story-cloth look (2026-11-18). An indigo cloth header with the sewn cover, then cotton pages; every block is a patch
+   with a running-stitch hem and the mountain-tooth band divides the sections. Indigo night in dark mode. */
 :root{
-  --paper:#f3e8d0; --paper2:#e9dcc0; --ink:#2a2119; --ink2:#5a4a3a; --smoke:#6d5d4c;
-  --indigo:#1f2a4d; --indigo2:#2f4b8f; --night:#141a2e; --cream:#f6ebd9;
-  --red:#b8322a; --brass:#c9a14a; --brass2:#e3c57a; --teal:#2d6e7e; --green:#3f6b4a;
-  --bg:var(--paper); --fg:var(--ink); --muted:var(--ink2); --panel:var(--paper2); --rule:var(--brass);
-  --band:var(--indigo); --band-fg:var(--cream); --accent:var(--red); --link:var(--indigo2);
-  --btn-bg:var(--red); --btn-fg:var(--cream); --btn2-bg:transparent; --btn2-fg:var(--ink); --btn2-bd:var(--ink);
-  --serif:"Bitter",Charter,Georgia,serif; --sans:"Source Sans 3","Source Sans Pro",system-ui,-apple-system,sans-serif;
+  --paper:#f3ecda; --paper2:#e6dbc0; --ink:#221c1a; --ink2:#54483f; --cream:#f6f1e4;
+  --indigo:#1c2752; --indigo2:#2f55a4; --night:#0f1530;
+  --red:#c4302b; --brass:#d6a11e; --brass2:#f0c64a; --teal:#23707c; --green:#2f7d4a;
+  --bg:var(--paper); --fg:var(--ink); --muted:var(--ink2); --panel:#fbf7ec; --rule:#c9b78f; --hem:#b58a1c;
+  --accent:var(--red); --link:var(--indigo2); --tooth:var(--indigo2); --tooth-bg:#fff;
+  --display:"Fraunces",Charter,Georgia,serif; --sans:"Barlow Semi Condensed","Source Sans 3",system-ui,-apple-system,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:var(--night); --fg:var(--cream); --muted:#cdbfa3; --panel:#1b2340; --rule:#8f7331;
-  --band:#0e1324; --band-fg:var(--cream); --accent:#e06a5c; --link:var(--brass2);
-  --btn-bg:var(--red); --btn-fg:var(--cream); --btn2-bg:transparent; --btn2-fg:var(--cream); --btn2-bd:var(--brass);
-  color-scheme:dark }}
+  --bg:var(--night); --fg:var(--cream); --muted:#cfc8b6; --panel:var(--indigo); --rule:#3d4f8f; --hem:rgba(240,198,74,.55);
+  --accent:#ee6a5e; --link:var(--brass2); color-scheme:dark }}
 :root[data-theme="dark"]{
-  --bg:var(--night); --fg:var(--cream); --muted:#cdbfa3; --panel:#1b2340; --rule:#8f7331;
-  --band:#0e1324; --band-fg:var(--cream); --accent:#e06a5c; --link:var(--brass2);
-  --btn-bg:var(--red); --btn-fg:var(--cream); --btn2-bg:transparent; --btn2-fg:var(--cream); --btn2-bd:var(--brass);
-  color-scheme:dark }
+  --bg:var(--night); --fg:var(--cream); --muted:#cfc8b6; --panel:var(--indigo); --rule:#3d4f8f; --hem:rgba(240,198,74,.55);
+  --accent:#ee6a5e; --link:var(--brass2); color-scheme:dark }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:17px;line-height:1.55;margin:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:18px;line-height:1.5;margin:0}
 a{color:var(--link)}
-h1,h2,h3{font-family:var(--serif);text-wrap:balance;margin:0;line-height:1.15}
-h2{font-size:1.75rem;font-weight:700}
-h3{font-size:1.15rem;font-weight:700}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.12}
+h2{font-size:clamp(1.7rem,3.4vw,2.3rem);font-weight:800}
+h3{font-size:1.25rem;font-weight:700}
 p{margin:0}
-.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.eyebrow{font-family:var(--sans);font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
-/* stitched band */
-.band{background:var(--band);color:var(--band-fg);border-bottom:6px solid var(--brass);position:relative}
-.band::before{content:"";position:absolute;left:0;right:0;top:0;height:10px;background:repeating-linear-gradient(90deg,var(--brass) 0 10px,transparent 10px 20px) top/20px 4px no-repeat, repeating-linear-gradient(90deg,transparent 0 10px,var(--brass) 10px 20px) bottom/20px 4px no-repeat;opacity:.9}
-.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:40px;align-items:center;padding-block:48px 40px}
-.hero img{max-width:100%;width:100%;height:auto;display:block;border:3px solid var(--brass);box-shadow:0 18px 40px rgba(0,0,0,.35)}
-.hero h1{font-size:clamp(3rem,7vw,5.2rem);font-weight:800;letter-spacing:.01em;color:var(--cream)}
-.hero .sub{font-family:var(--serif);font-style:italic;font-size:1.2rem;color:var(--brass2);margin-top:6px}
-body{margin:0}.hero .lede{margin-top:20px;font-size:1.08rem;max-width:34em;color:var(--cream)}
-.facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:18px;font-weight:700;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--brass2)}
-.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
-.btn{display:inline-block;font-family:var(--sans);font-weight:700;font-size:1rem;letter-spacing:.02em;padding:12px 22px;border:2px solid var(--btn-bg);background:var(--btn-bg);color:var(--btn-fg);text-decoration:none;border-radius:4px}
-.btn.alt{background:transparent;color:var(--cream);border-color:var(--brass)}
+img{max-width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-weight:700;font-size:.82rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+/* the mountain-tooth band: white teeth on blue between two red threads */
+.teeth{height:22px;background:
+  linear-gradient(var(--red),var(--red)) top/100% 3px no-repeat,
+  linear-gradient(var(--red),var(--red)) bottom/100% 3px no-repeat,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='16' viewBox='0 0 24 16'%3E%3Crect width='24' height='16' fill='%232f55a4'/%3E%3Cpath d='M0 16 L12 0 L24 16 Z' fill='%23f6f1e4'/%3E%3C/svg%3E") center/24px 16px repeat-x;
+  background-color:var(--indigo2)}
+/* header: the cover is the title */
+.band{background:var(--night);color:var(--cream);background-image:radial-gradient(ellipse at 50% 0,#26346a 0,transparent 60%)}
+.hero{display:grid;gap:26px;justify-items:center;text-align:center;padding-block:28px 40px}
+.hero .cover{width:100%;max-width:980px;height:auto;display:block;border-radius:6px;box-shadow:0 0 0 2px var(--brass),0 24px 60px rgba(0,0,0,.55)}
+.hero h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.hero .sub{font-family:var(--display);font-style:italic;font-size:clamp(1.25rem,2.6vw,1.6rem);color:var(--brass2)}
+.hero .lede{font-size:1.15rem;max-width:38em;color:var(--cream)}
+.facts{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;font-weight:700;font-size:.86rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass2)}
+.cta{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.btn{display:inline-block;font-weight:700;font-size:1.08rem;letter-spacing:.03em;padding:13px 24px;background:var(--red);color:var(--cream);text-decoration:none;border-radius:6px;outline:1.5px dashed rgba(246,241,228,.6);outline-offset:-5px}
+.btn.alt{background:var(--indigo);outline-color:rgba(240,198,74,.6)}
 .btn:focus-visible,a:focus-visible{outline:3px solid var(--brass2);outline-offset:2px}
-section{padding-block:44px;border-bottom:1px solid var(--rule)}
-section:last-of-type{border-bottom:0}
-.sect-head{display:grid;gap:8px;margin-bottom:22px;max-width:40em}
+section{padding-block:48px}
+.sect-head{display:grid;gap:8px;margin-bottom:24px;max-width:42em}
 .sect-head p{color:var(--muted)}
-/* three ways */
+/* a patch: a piece of cloth with a running-stitch hem */
+.patch{background:var(--panel);border-radius:8px;outline:1.5px dashed var(--hem);outline-offset:-6px;padding:22px 22px 24px;box-shadow:0 1px 0 rgba(0,0,0,.08),0 6px 18px rgba(15,21,48,.08)}
 .ways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.way{background:var(--panel);border-top:4px solid var(--accent);padding:20px 20px 22px;display:grid;gap:10px;align-content:start}
-.way:nth-child(2){border-top-color:var(--teal)}.way:nth-child(3){border-top-color:var(--green)}
-.way p{color:var(--muted);font-size:.98rem}
-.way a.go{font-weight:700;text-decoration:none;border-bottom:2px solid currentColor;justify-self:start}
-/* scenes */
-.scenes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-.scenes figure{margin:0;display:grid;gap:6px}
-.scenes img{width:100%;max-width:100%;height:auto;display:block;border:2px solid var(--rule)}
-.scenes figcaption{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--muted)}
-/* kit table */
-.kit{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;align-items:start}
+.way{display:grid;gap:10px;align-content:start;border-top:6px solid var(--red)}
+.way:nth-child(2){border-top-color:var(--indigo2)}.way:nth-child(3){border-top-color:var(--green)}
+.way p{color:var(--muted)}
+a.go{font-weight:700;text-decoration:none;border-bottom:2px solid currentColor;justify-self:start}
+.pic{width:100%;height:auto;display:block;border-radius:6px;box-shadow:0 0 0 2px var(--brass)}
+.scenes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.scenes figure,.duo figure{margin:0;display:grid;gap:6px}
+.scenes figcaption,.duo figcaption{font-family:var(--display);font-style:italic;font-size:1rem;color:var(--muted)}
+.duo{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:22px;align-items:start;margin-top:22px}
+.kit{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:28px;align-items:start}
 .kit .board{display:grid;gap:10px}
-.kit .board img{width:100%;max-width:100%;height:auto;display:block;border:2px solid var(--rule)}
-.kit .board p{font-size:.92rem;color:var(--muted)}
-table{border-collapse:collapse;width:100%;font-size:.95rem}
-th{text-align:left;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:6px 8px;border-bottom:2px solid var(--rule)}
-td{padding:9px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+.kit .board p{font-size:.95rem;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:1rem}
+th{text-align:left;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:6px 8px;border-bottom:2px solid var(--rule)}
+td{padding:10px 8px;border-bottom:1px dashed var(--rule);vertical-align:top}
 td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--muted)}
 td a{font-weight:700;text-decoration:none;border-bottom:1.5px solid currentColor}
-td small{display:block;color:var(--muted);font-size:.88rem;margin-top:2px}
+td small{display:block;color:var(--muted);font-size:.9rem;margin-top:2px}
 .twrap{overflow-x:auto;min-width:0}
-.howto{margin-top:22px;background:var(--panel);padding:18px 20px;display:grid;gap:8px;border-left:4px solid var(--brass)}
-.howto h3{font-size:1rem}
-.howto ol{margin:0;padding-left:1.2em;display:grid;gap:4px;color:var(--muted);font-size:.97rem}
-/* books */
+.howto{margin-top:24px;display:grid;gap:8px}
+.howto h3{font-size:1.1rem}
+.howto ol{margin:0;padding-left:1.2em;display:grid;gap:4px;color:var(--muted)}
 .books{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.book{display:grid;gap:8px;padding:18px;background:var(--panel);border:1px solid var(--rule)}
-.book .pages{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
-.book p{color:var(--muted);font-size:.97rem}
-.book a{font-weight:700;text-decoration:none;border-bottom:2px solid currentColor;justify-self:start}
-/* dedication and footer */
-.dedic{font-family:var(--serif);font-style:italic;font-size:1.08rem;max-width:40em;color:var(--muted)}
-footer{background:var(--band);color:var(--band-fg);border-top:6px solid var(--brass);padding-block:28px;font-size:.95rem}
+.book{display:grid;gap:8px;align-content:start}
+.book .pages{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.book p{color:var(--muted)}
+.dedic{font-family:var(--display);font-style:italic;font-size:1.15rem;max-width:40em;color:var(--muted);margin:0 auto;text-align:center}
+footer{background:var(--night);color:var(--cream);padding-block:28px;font-size:1rem}
 footer .wrap{display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between;align-items:center}
 footer a{color:var(--brass2)}
+video{box-shadow:0 0 0 2px var(--brass)}
 @media (max-width:820px){
-  .hero{grid-template-columns:1fr;gap:26px;padding-block:32px}
-  .hero img{max-width:420px;margin:0 auto}
   .ways,.books,.scenes{grid-template-columns:1fr 1fr}
-  .kit{grid-template-columns:1fr}
-  .kit .board{order:-1;max-width:520px}
+  .kit,.duo{grid-template-columns:1fr}
+  .kit .board{order:-1;max-width:560px}
 }
 @media (max-width:520px){
   .ways,.books,.scenes{grid-template-columns:1fr}
-  body{font-size:16px}
+  body{font-size:17px}.hero{padding-block:16px 30px;gap:20px}.btn{width:100%;text-align:center}
+  .chapters{columns:1!important}
 }
 @media (prefers-reduced-motion:no-preference){ .btn{transition:transform .12s ease} .btn:hover{transform:translateY(-1px)} }
 </style>
 
+
 <header class="band">
   <div class="wrap hero">
-    <div>
-      <p class="eyebrow" style="color:var(--brass2)">A cooperative survival game · second edition</p>
-      <h1>Chao Fa</h1>
-      <p class="sub">The Hmong flight from Laos, 1975 to 1979</p>
-      <p class="lede">Laos, 1975. You are a countryless nation, and your village sided with the Americans. Walk south through the hills and the jungle, recover the nine squares of the story cloth, and cross the Mekong before the camps close. Based on real-life stories.</p>
-      <div class="facts"><span>1 to 6 players</span><span>Ages 12 and up</span><span>90 to 180 minutes</span></div>
-      <div class="cta">
-        <a class="btn" href="play.html">Play in your browser</a>
-        <a class="btn alt" href="rulebook.html">Read the rulebook</a>
-        <a class="btn alt" href="#video">Watch how to play</a>
-      </div>
+    <img class="cover" src="img/cover_1200.jpg" alt="Chao Fa: the cover is sewn like a Hmong story cloth. A family of seven walks south with a pony, from a burning village, through the forest, to the Mekong, where rafts and swimmers cross to Thailand." width="1200" height="900">
+    <h1>Chao Fa</h1>
+    <p class="sub">The Hmong flight from Laos, 1975 to 1979</p>
+    <p class="lede">Laos, 1975. You are a countryless nation, and your village sided with the Americans. Walk south through the hills and the jungle, recover the nine squares of the story cloth, and cross the Mekong before the camps close. Based on real-life stories.</p>
+    <div class="facts"><span>A cooperative survival game</span><span>1 to 6 players</span><span>Ages 12 and up</span><span>90 to 180 minutes</span></div>
+    <div class="cta">
+      <a class="btn" href="play.html">Play in your browser</a>
+      <a class="btn alt" href="rulebook.html">Read the rulebook</a>
+      <a class="btn alt" href="#video">Watch how to play</a>
+      <a class="btn alt" href="#kit">Print the game</a>
     </div>
-    <img src="img/cover_1200.jpg" alt="Chao Fa box cover: a Hmong family walks south along a ridge above the jungle, toward the Mekong" width="1200" height="900">
   </div>
+  <div class="teeth"></div>
 </header>
 
 <main class="wrap">
@@ -129,17 +126,17 @@ footer a{color:var(--brass2)}
       <h2>Open the game, print the game, or learn it in one evening</h2>
     </div>
     <div class="ways">
-      <div class="way">
+      <div class="way patch">
         <h3>Play online</h3>
         <p>The whole game runs in your browser, with a guided first game, save and resume, undo, and a feedback card at the end. Nothing to install.</p>
         <a class="go" href="play.html">Open the game</a>
       </div>
-      <div class="way">
+      <div class="way patch">
         <h3>Print and play</h3>
         <p>Every component as a US Letter PDF: cards, board, place tiles, standees, tokens, player aids, story cloth, box wrap and the books. Printing notes are below.</p>
         <a class="go" href="#kit">See the print kit</a>
       </div>
-      <div class="way">
+      <div class="way patch">
         <h3>Learn to play</h3>
         <p>Watch the 21-minute how-to-play video, read the rulebook online, or print The First Winter, a fixed first game that walks one family through its first year card by card.</p>
         <a class="go" href="#video">Watch the video</a>
@@ -153,7 +150,7 @@ footer a{color:var(--brass2)}
       <h2>Learn the whole game in one sitting</h2>
       <p>A full teach in the style of a board game tutorial video: the goal, the pieces, setup, a season of play, the actions, fights, the story cloth, Winter, the river and the ending, then a season played through in the app. Captions are burned in; the chapter list jumps to any part.</p>
     </div>
-    <video id="howto" controls preload="metadata" playsinline poster="video/poster.jpg" style="width:100%;aspect-ratio:16/9;background:#141a2e;border:1px solid var(--brass,#c9a14a);border-radius:10px">
+    <video id="howto" controls preload="metadata" playsinline poster="video/poster.jpg" style="width:100%;aspect-ratio:16/9;background:#0f1530;border-radius:8px">
       <source src="video/Chao_Fa_How_to_Play.mp4" type="video/mp4">
       <track kind="captions" src="video/captions.vtt" srclang="en" label="English">
       Your browser cannot play this video. <a href="video/Chao_Fa_How_to_Play.mp4">Download it</a> instead.
@@ -174,7 +171,7 @@ footer a{color:var(--brass2)}
       <li><a href="#video" data-t="1125">A season of play</a> <small style="opacity:.7">18:45</small></li>
       <li><a href="#video" data-t="1231">Your first games</a> <small style="opacity:.7">20:31</small></li>
     </ol>
-    <p class="small" style="opacity:.8"><a href="video/Chao_Fa_How_to_Play.mp4" download>Download the video</a> (720p, MP4) · <a href="video/script.md">Read the script</a> · <a href="video/captions.srt">Captions (SRT)</a></p>
+    <p class="small" style="opacity:.8;margin-top:10px">The video was recorded with the earlier artwork; the rules it teaches are the same. <a href="video/Chao_Fa_How_to_Play.mp4" download>Download the video</a> (720p, MP4) · <a href="video/script.md">Read the script</a> · <a href="video/captions.srt">Captions (SRT)</a></p>
     <script>
       document.querySelectorAll('.chapters a[data-t]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); const v = document.getElementById('howto'); v.currentTime = +a.dataset.t; v.play(); v.scrollIntoView({ behavior: 'smooth', block: 'center' }); }));
     </script>
@@ -187,12 +184,16 @@ footer a{color:var(--brass2)}
       <p>One turn is one season. Each season the party searches, scouts, forages, builds, rests and travels, feeds itself, and meets whatever the cards bring: patrols, strangers, sickness, the river. The soldiers' strength and every stroke of luck come from the Fortune deck. There are no dice.</p>
     </div>
     <div class="scenes">
-      <figure><img src="img/01_leaving_the_village_800.jpg" alt="Leaving the village" width="800" height="500" loading="lazy"><figcaption>Leaving the village</figcaption></figure>
-      <figure><img src="img/02_hiding_in_the_jungle_800.jpg" alt="Hiding in the jungle" width="800" height="500" loading="lazy"><figcaption>Hiding in the jungle</figcaption></figure>
-      <figure><img src="img/03_foraging_800.jpg" alt="Foraging" width="800" height="500" loading="lazy"><figcaption>Foraging</figcaption></figure>
-      <figure><img src="img/04_winter_in_the_hills_800.jpg" alt="Winter in the hills" width="800" height="500" loading="lazy"><figcaption>Winter in the hills</figcaption></figure>
-      <figure><img src="img/05_crossing_the_mekong_800.jpg" alt="Crossing the Mekong" width="800" height="500" loading="lazy"><figcaption>Crossing the Mekong</figcaption></figure>
-      <figure><img src="img/06_across_the_river_800.jpg" alt="Across the river" width="800" height="500" loading="lazy"><figcaption>Across the river</figcaption></figure>
+      <figure><img class="pic" src="img/01_leaving_the_village_800.jpg" alt="Leaving the village" width="800" height="500" loading="lazy"><figcaption>Leaving the village</figcaption></figure>
+      <figure><img class="pic" src="img/02_hiding_in_the_jungle_800.jpg" alt="Hiding in the jungle" width="800" height="500" loading="lazy"><figcaption>Hiding in the jungle</figcaption></figure>
+      <figure><img class="pic" src="img/03_foraging_800.jpg" alt="Foraging" width="800" height="500" loading="lazy"><figcaption>Foraging</figcaption></figure>
+      <figure><img class="pic" src="img/04_winter_in_the_hills_800.jpg" alt="Winter in the hills" width="800" height="500" loading="lazy"><figcaption>Winter in the hills</figcaption></figure>
+      <figure><img class="pic" src="img/05_crossing_the_mekong_800.jpg" alt="Crossing the Mekong" width="800" height="500" loading="lazy"><figcaption>Crossing the Mekong</figcaption></figure>
+      <figure><img class="pic" src="img/06_across_the_river_800.jpg" alt="Across the river" width="800" height="500" loading="lazy"><figcaption>Across the river</figcaption></figure>
+    </div>
+    <div class="duo">
+      <figure><img class="pic" src="img/villagers.jpg" alt="The sixteen villagers of Chao Fa in Hmong dress: the mayor, the teacher, farmers, children, a hunter, a blacksmith, shamans, an elder, a soldier, a doctor, a medicine woman, a tailor and a singer" width="2560" height="800" loading="lazy"><figcaption>The sixteen villagers. Each has two sides: a power to use once a season, or a trait that is always on.</figcaption></figure>
+      <figure><img class="pic" src="img/story_cloth.jpg" alt="The nine squares of the story cloth, from the village to the camp" width="1200" height="1200" loading="lazy"><figcaption>The story cloth: nine squares to recover before the crossing, from the village to the camp.</figcaption></figure>
     </div>
   </section>
 
@@ -206,8 +207,8 @@ footer a{color:var(--brass2)}
       <div class="twrap">
         <table>
           <tr><th>File</th><th>What it is</th><th style="text-align:right">Pages</th></tr>
-          <tr><td><a href="kit/Chao_Fa_PRINT_ALL.pdf">Everything in one file</a><small>218 pages · 70 MB · double-sided</small></td><td>All of the files below in one PDF with an instructions page first. Print double-sided, flip on the long edge; blank pages keep single-sided sheets single-sided. Every sheet carries a small sheet number in its bottom-right margin, cut away with the margin, to check a printed stack against.</td><td class="n">218</td></tr>
-<tr><td><a href="kit/1_Chao_Fa_Cards.pdf">1 · Cards</a><small>Card stock · double-sided · 30 MB</small></td><td>Poker-size cards, 9 per sheet, each fronts page followed by its mirrored backs page. Cut on the crop marks. A <a href="kit/1_Chao_Fa_Cards_Low_Ink.pdf">low-ink version</a> prints the same cards with lighter backgrounds.</td><td class="n">104</td></tr>
+          <tr><td><a href="kit/Chao_Fa_PRINT_ALL.pdf">Everything in one file</a><small>218 pages · 74 MB · double-sided</small></td><td>All of the files below in one PDF with an instructions page first. Print double-sided, flip on the long edge; blank pages keep single-sided sheets single-sided. Every sheet carries a small sheet number in its bottom-right margin, cut away with the margin, to check a printed stack against.</td><td class="n">218</td></tr>
+<tr><td><a href="kit/1_Chao_Fa_Cards.pdf">1 · Cards</a><small>Card stock · double-sided · 35 MB</small></td><td>Poker-size cards, 9 per sheet, each fronts page followed by its mirrored backs page. Cut on the crop marks. A <a href="kit/1_Chao_Fa_Cards_Low_Ink.pdf">low-ink version</a> prints the same cards with lighter backgrounds.</td><td class="n">104</td></tr>
           <tr><td><a href="kit/2_Chao_Fa_Board_4_Sheets.pdf" target="_blank" rel="noopener">2 · Board</a><small>Plain or card · single-sided</small></td><td>Four landscape sheets that join into one 21 × 16 inch board. Trim the marked edges, overlap so the art meets, tape on the back or glue to foam board.</td><td class="n">4</td></tr>
           <tr><td><a href="kit/3_Chao_Fa_Place_Tiles.pdf" target="_blank" rel="noopener">3 · Place tiles</a><small>Card stock · double-sided</small></td><td>Sixteen tiles, fronts then mirrored backs. The back is also the picked-clean side.</td><td class="n">4</td></tr>
           <tr><td><a href="kit/4_Chao_Fa_Standees_and_Tokens.pdf" target="_blank" rel="noopener">4 · Standees and tokens</a><small>Card stock · single-sided</small></td><td>Sixteen fold-over standees on two sheets and 67 round tokens and markers on a third. Glue the tokens to card, coins or wooden discs.</td><td class="n">3</td></tr>
@@ -222,13 +223,13 @@ footer a{color:var(--brass2)}
         </table>
       </div>
       <div class="board">
-        <img src="img/Board_assembled.png" alt="The assembled Chao Fa board: the trail from the village in the north to the Mekong in the south, with the time track as its border" width="2016" height="1536" loading="lazy">
+        <img class="pic" src="img/Board_assembled.jpg" alt="The assembled Chao Fa board: the trail from the village in the north to the Mekong in the south, with the time track as its border" width="2016" height="1536" loading="lazy">
         <p>The four board sheets assembled. The time track runs around the border, one space per season from Spring 1975 to Winter 1979.</p>
-        <img src="img/Card_Gallery.jpg" alt="Six Chao Fa cards: a villager, a place, an item, a Season card, a Fortune card and a story-cloth square" width="3280" height="760" loading="lazy">
+        <img class="pic" src="img/Card_Gallery.jpg" alt="Six Chao Fa cards: a villager, a place, an item, a Season card, a Fortune card and a story-cloth square" width="3280" height="760" loading="lazy">
         <p>Villager, place, item, Season, Fortune and story-cloth cards.</p>
       </div>
     </div>
-    <div class="howto">
+    <div class="howto patch">
       <h3>Assembling the game</h3>
       <ol>
         <li>Print the cards double-sided on card stock, cut on the crop marks, and sort the decks with the dividers from file 13.</li>
@@ -245,20 +246,20 @@ footer a{color:var(--brass2)}
       <h2>Rules, companion and endings</h2>
     </div>
     <div class="books">
-      <div class="book">
+      <div class="book patch">
         <span class="pages">37 pages</span>
         <h3>Rulebook</h3>
         <p>The rules of play: setup, the season, actions, fights with the Patrol table, the river, the Winter Toll, solo play and a glossary. Also readable as a web page.</p>
         <a href="kit/8_Chao_Fa_Rulebook.pdf" target="_blank" rel="noopener">Rulebook PDF</a>
         <a href="rulebook.html">Read it online</a>
       </div>
-      <div class="book">
+      <div class="book patch">
         <span class="pages">48 pages</span>
         <h3>Companion</h3>
         <p>Every card explained, the two endings, the history behind the trail and the Voices: the words of people who walked it.</p>
         <a href="kit/9_Chao_Fa_Companion.pdf" target="_blank" rel="noopener">Companion PDF</a>
       </div>
-      <div class="book">
+      <div class="book patch">
         <span class="pages">37 pages</span>
         <h3>Endings booklet</h3>
         <p>What became of each villager. Ten numbered endings per villager, the same numbers for everyone, with the lookup table on the first pages. The game gives you a code like "Mai 7".</p>
